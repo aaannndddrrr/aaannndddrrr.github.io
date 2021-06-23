@@ -61,6 +61,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
 const a = document.querySelector('.box');
 const date = new Date();
-if(date.getDate() == 24 || date.getMonth() == 5){
+if(date.getDate() == 23 || date.getMonth() == 5){
     a.innerHTML = '<p>ggggg</p><p>jhjhhfg</p>'
 }
